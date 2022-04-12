@@ -1,0 +1,10 @@
+C:\Users\jknic\source\repos\StartCalculator\bin\Debug\StartCalculator.exe.config
+C:\Users\jknic\source\repos\StartCalculator\bin\Debug\StartCalculator.exe
+C:\Users\jknic\source\repos\StartCalculator\bin\Debug\StartCalculator.pdb
+C:\Users\jknic\source\repos\StartCalculator\obj\Debug\StartCalculator.csproj.AssemblyReference.cache
+C:\Users\jknic\source\repos\StartCalculator\obj\Debug\StartCalculator.Form1.resources
+C:\Users\jknic\source\repos\StartCalculator\obj\Debug\StartCalculator.Properties.Resources.resources
+C:\Users\jknic\source\repos\StartCalculator\obj\Debug\StartCalculator.csproj.GenerateResource.cache
+C:\Users\jknic\source\repos\StartCalculator\obj\Debug\StartCalculator.csproj.CoreCompileInputs.cache
+C:\Users\jknic\source\repos\StartCalculator\obj\Debug\StartCalculator.exe
+C:\Users\jknic\source\repos\StartCalculator\obj\Debug\StartCalculator.pdb
