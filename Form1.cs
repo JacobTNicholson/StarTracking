@@ -69,7 +69,7 @@ namespace StartCalculator
                 }
             }
 
-            while (playerSelect < 11)
+          /*  while (playerSelect < 11)
             {
                 switch (playerSelect)
                 {
@@ -196,7 +196,7 @@ namespace StartCalculator
                         else
                         {
                             break;
-                        }
+                        }*/
 
                         /* case 10:
                              if (textBox10.Text != "")
@@ -214,21 +214,20 @@ namespace StartCalculator
 
 
                 }
-                playerSelect++;
+                //playerSelect++;
                 //listBox1.Items.Add(playerCount);
             }
 
 
 
-        }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        /*private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
-        }
+        }*/
 
-        private void button2_Click(object sender, EventArgs e)
-        {
+       /* private void button2_Click(object sender, EventArgs e)
+        {*/
 
 
             /*for (var i = 0; i < playerCount; i++)
@@ -262,9 +261,13 @@ namespace StartCalculator
 
 
                 }*/
-        }
+        
 
-    }
+       /* private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }*/
+   }
 
     /*TextBox textbox = new TextBox();
     int count = this.Controls.OfType<TextBox>().ToList().Count;
@@ -281,6 +284,4 @@ namespace StartCalculator
     button.Text = "Delete";
     button.Click += new System.EventHandler(this.button2_Click);
     this.Controls.Add(button);*/
-}
-//}
 //}
