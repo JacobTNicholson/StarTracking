@@ -69,7 +69,7 @@ namespace StartCalculator
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(450, 101);
+            this.listBox1.Location = new System.Drawing.Point(475, 101);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(242, 148);
             this.listBox1.TabIndex = 21;
