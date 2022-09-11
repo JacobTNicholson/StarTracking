@@ -108,7 +108,7 @@ namespace StartCalculator
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(141, 175);
+            this.textBox5.Location = new System.Drawing.Point(141, 211);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 22);
             this.textBox5.TabIndex = 37;
@@ -116,7 +116,7 @@ namespace StartCalculator
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(141, 214);
+            this.textBox4.Location = new System.Drawing.Point(141, 170);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 22);
             this.textBox4.TabIndex = 36;
@@ -199,21 +199,21 @@ namespace StartCalculator
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(51, 170);
+            this.label5.Location = new System.Drawing.Point(52, 211);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(55, 16);
             this.label5.TabIndex = 27;
-            this.label5.Text = "player 4";
+            this.label5.Text = "player 5";
             this.label5.Visible = false;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(51, 211);
+            this.label4.Location = new System.Drawing.Point(51, 173);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 16);
             this.label4.TabIndex = 26;
-            this.label4.Text = "Player 5";
+            this.label4.Text = "Player 4";
             this.label4.Visible = false;
             // 
             // label3
