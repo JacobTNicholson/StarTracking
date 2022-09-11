@@ -8,3 +8,15 @@ C:\Users\jknic\source\repos\StartCalculator\obj\Debug\StartCalculator.csproj.Gen
 C:\Users\jknic\source\repos\StartCalculator\obj\Debug\StartCalculator.csproj.CoreCompileInputs.cache
 C:\Users\jknic\source\repos\StartCalculator\obj\Debug\StartCalculator.exe
 C:\Users\jknic\source\repos\StartCalculator\obj\Debug\StartCalculator.pdb
+C:\Users\jknic\Documents\Repos\bin\Debug\StartCalculator.exe.config
+C:\Users\jknic\Documents\Repos\bin\Debug\StartCalculator.exe
+C:\Users\jknic\Documents\Repos\bin\Debug\StartCalculator.pdb
+C:\Users\jknic\Documents\Repos\obj\Debug\StartCalculator.csproj.AssemblyReference.cache
+C:\Users\jknic\Documents\Repos\obj\Debug\StartCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\jknic\Documents\Repos\obj\Debug\StartCalculator.Form1.resources
+C:\Users\jknic\Documents\Repos\obj\Debug\StartCalculator.Form2.resources
+C:\Users\jknic\Documents\Repos\obj\Debug\StartCalculator.Properties.Resources.resources
+C:\Users\jknic\Documents\Repos\obj\Debug\StartCalculator.csproj.GenerateResource.cache
+C:\Users\jknic\Documents\Repos\obj\Debug\StartCalculator.csproj.CoreCompileInputs.cache
+C:\Users\jknic\Documents\Repos\obj\Debug\StartCalculator.exe
+C:\Users\jknic\Documents\Repos\obj\Debug\StartCalculator.pdb
