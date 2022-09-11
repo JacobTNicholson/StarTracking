@@ -37,6 +37,8 @@ namespace StartCalculator
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            //change code to have drop down for players and enable corresponding labels/textBoxes
             int playerSelect = 1;
             playerCount = Int32.Parse(textBox11.Text);
 
@@ -226,11 +228,6 @@ namespace StartCalculator
             }*/
 
 
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
 
         }
 
