@@ -53,6 +53,8 @@ namespace StartCalculator
             this.label1 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -76,7 +78,7 @@ namespace StartCalculator
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(141, 351);
+            this.textBox9.Location = new System.Drawing.Point(11, 293);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(100, 22);
             this.textBox9.TabIndex = 41;
@@ -84,7 +86,7 @@ namespace StartCalculator
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(141, 314);
+            this.textBox8.Location = new System.Drawing.Point(11, 256);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 22);
             this.textBox8.TabIndex = 40;
@@ -92,7 +94,7 @@ namespace StartCalculator
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(141, 280);
+            this.textBox7.Location = new System.Drawing.Point(11, 222);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 22);
             this.textBox7.TabIndex = 39;
@@ -100,7 +102,7 @@ namespace StartCalculator
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(141, 250);
+            this.textBox6.Location = new System.Drawing.Point(11, 192);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 22);
             this.textBox6.TabIndex = 38;
@@ -108,7 +110,7 @@ namespace StartCalculator
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(141, 211);
+            this.textBox5.Location = new System.Drawing.Point(11, 153);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 22);
             this.textBox5.TabIndex = 37;
@@ -116,7 +118,7 @@ namespace StartCalculator
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(141, 170);
+            this.textBox4.Location = new System.Drawing.Point(11, 112);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 22);
             this.textBox4.TabIndex = 36;
@@ -124,7 +126,7 @@ namespace StartCalculator
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(141, 134);
+            this.textBox3.Location = new System.Drawing.Point(11, 76);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 22);
             this.textBox3.TabIndex = 35;
@@ -132,7 +134,7 @@ namespace StartCalculator
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(141, 98);
+            this.textBox2.Location = new System.Drawing.Point(11, 40);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 34;
@@ -140,7 +142,7 @@ namespace StartCalculator
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(141, 65);
+            this.textBox1.Location = new System.Drawing.Point(11, 14);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 33;
@@ -270,7 +272,7 @@ namespace StartCalculator
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(281, 26);
+            this.label11.Location = new System.Drawing.Point(282, 27);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(159, 16);
             this.label11.TabIndex = 45;
@@ -278,30 +280,42 @@ namespace StartCalculator
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(141, 387);
+            this.textBox10.Location = new System.Drawing.Point(11, 329);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(100, 22);
             this.textBox10.TabIndex = 46;
             this.textBox10.Visible = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.textBox10);
+            this.groupBox1.Controls.Add(this.textBox9);
+            this.groupBox1.Controls.Add(this.textBox8);
+            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Location = new System.Drawing.Point(131, 52);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(127, 370);
+            this.groupBox1.TabIndex = 47;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.TextChanged += new System.EventHandler(this.groupBox1_TextChanged);
+            this.groupBox1.Leave += new System.EventHandler(this.groupBox1_Leave);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -315,6 +329,8 @@ namespace StartCalculator
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Select Numnber of Players";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -345,6 +361,7 @@ namespace StartCalculator
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
