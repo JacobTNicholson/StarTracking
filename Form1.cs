@@ -60,9 +60,17 @@ namespace StartCalculator
                         if (textBox1.Text != "")
                         {
                             players.Add(textBox1.Text);
+                            label1.Text = textBox1.Text;
                             //playerCount++;
                             //listBox1.Items.Add(players[playerSelect - 1]);
                             break;
+                        }
+
+                        else if (textBox1.Text == "")
+                        {
+                            label1.Text = "Player 1";
+                            break;
+
                         }
 
                         else
@@ -74,9 +82,17 @@ namespace StartCalculator
                         if (textBox2.Text != "")
                         {
                             players.Add(textBox2.Text);
-                           // playerCount++;
+                            label2.Text = textBox2.Text;
+                            // playerCount++;
                             //listBox1.Items.Add(players[playerSelect - 1]);
                             break;
+                        }
+
+                        else if (textBox1.Text == "")
+                        {
+                            label2.Text = "Player 2";
+                            break;
+
                         }
 
                         else
@@ -88,9 +104,17 @@ namespace StartCalculator
                         if (textBox3.Text != "")
                         {
                             players.Add(textBox3.Text);
+                            label3.Text = textBox3.Text;
                             //playerCount++;
                             //listBox1.Items.Add(players[playerSelect - 1]);
                             break;
+                        }
+
+                        else if (textBox1.Text == "")
+                        {
+                            label3.Text = "Player 3";
+                            break;
+
                         }
 
                         else
@@ -102,9 +126,17 @@ namespace StartCalculator
                         if (textBox4.Text != "")
                         {
                             players.Add(textBox4.Text);
+                            label4.Text = textBox4.Text;
                             //playerCount++;
                             //listBox1.Items.Add(players[playerSelect - 1]);
                             break;
+                        }
+
+                        else if (textBox1.Text == "")
+                        {
+                            label4.Text = "Player 4";
+                            break;
+
                         }
 
                         else
@@ -116,9 +148,17 @@ namespace StartCalculator
                         if (textBox5.Text != "")
                         {
                             players.Add(textBox5.Text);
+                            label5.Text = textBox5.Text;
                             //playerCount++;
                             //listBox1.Items.Add(players[playerSelect - 1]);
                             break;
+                        }
+
+                        else if (textBox1.Text == "")
+                        {
+                            label5.Text = "Player 5";
+                            break;
+
                         }
 
                         else
@@ -130,9 +170,17 @@ namespace StartCalculator
                         if (textBox6.Text != "")
                         {
                             players.Add(textBox6.Text);
+                            label6.Text = textBox6.Text;
                             //playerCount++;
                             //listBox1.Items.Add(players[playerSelect - 1]);
                             break;
+                        }
+
+                        else if (textBox1.Text == "")
+                        {
+                            label6.Text = "Player 6";
+                            break;
+
                         }
 
                         else
@@ -143,9 +191,17 @@ namespace StartCalculator
                         if (textBox7.Text != "")
                         {
                             players.Add(textBox7.Text);
+                            label7.Text = textBox7.Text;
                             //playerCount++;
                             //listBox1.Items.Add(players[playerSelect - 1]);
                             break;
+                        }
+
+                        else if (textBox1.Text == "")
+                        {
+                            label7.Text = "Player 7";
+                            break;
+
                         }
 
                         else
@@ -157,9 +213,17 @@ namespace StartCalculator
                         if (textBox8.Text != "")
                         {
                             players.Add(textBox8.Text);
+                            label8.Text = textBox8.Text;
                             //playerCount++;
                             //listBox1.Items.Add(players[playerSelect - 1]);
                             break;
+                        }
+
+                        else if (textBox1.Text == "")
+                        {
+                            label8.Text = "Player 8";
+                            break;
+
                         }
 
                         else
@@ -171,9 +235,17 @@ namespace StartCalculator
                         if (textBox9.Text != "")
                         {
                             players.Add(textBox9.Text);
+                            label9.Text = textBox9.Text;
                             //playerCount++;
                             //listBox1.Items.Add(players[playerSelect - 1]);
                             break;
+                        }
+
+                        else if (textBox1.Text == "")
+                        {
+                            label9.Text = "Player 9";
+                            break;
+
                         }
 
                         else
@@ -185,12 +257,20 @@ namespace StartCalculator
                              if (textBox10.Text != "")
                              {
                                  players.Add(textBox10.Text);
-                                 //playerCount++;
-                                 //listBox1.Items.Add(players[playerSelect - 1]);
-                                 break;
+                            label10.Text = textBox10.Text;
+                            //playerCount++;
+                            //listBox1.Items.Add(players[playerSelect - 1]);
+                            break;
                              }
 
-                             else
+                        else if (textBox1.Text == "")
+                        {
+                            label10.Text = "Player 10";
+                            break;
+
+                        }
+
+                        else
                              {
                                  break;
                              }
